@@ -4,7 +4,7 @@ Here I am submitting my solution to this year's DMA challenge officially sponsor
 
 Below is some description of the problem. 
 
-1. Business Overview:
+Business Overview:
 Company A is one of the world’s largest players in the online peer-to-peer lending business which has been instrumental in transforming the consumer and small business credit marketplace. The business model is as follows: the borrowers get access to lower interest rate loans through a fast and easy online or mobile interface, and investors provide the capital to enable many of the loans in exchange for earning interest. Since Company A uses little or no branch infrastructure, they can transfer the cost savings to the borrowers in form of lower interest rates and get attractive returns for the investors.
  
 Company A is planning to use data analytics by leveraging the information on the existing loans that were extended to various consumers and small business and identifying the characteristics associated with the most highly profitable customers. For this purpose of this exercise, Company A has provided data on 768K loans that were issued in the past and the associated information captured, including:
@@ -16,7 +16,7 @@ Company A is planning to use data analytics by leveraging the information on the
  
 For Company A to increase its return on investments on a marketing campaign, it is important to understand the attributes that can help identify the most profitable customers in order to improve its solicitation as well as underwriting processes for new loans. From an analytical standpoint, there are 2 key aspects to an effective marketing campaign; a solicitation response model that helps to increase the acquisition rate and a high value customer identification model that helps the company get higher lifetime value from their customers. The focus of this problem is towards identifying the attributes of high value customers which can then be supplemented with a response rate model to enhance the ROI for a marketing investment.
 
-2. Analytics Challenge:
+Analytics Challenge:
  
 The dataset for training the model would consist of approx. 768K  loans which the participants would use to build their model to predict the estimated profitability of the loans. This consists of loans that existed on Company A’s books as of a point in time and has loans that are currently performing (i.e. in repayment), historically paid off and historically charged off loans. The target variable for the participants is the $ profitability associated with a loan, which is defined as the gross $ value margin that was made on that loan.
  
@@ -24,7 +24,7 @@ Subsequently, the validation dataset would have approx. 85K loans for which the 
 
 Solution : 
 
-My approach to the solution was ensembling of logistic model, linear model and single decision tree model. The predictions of all these models were fetched as an input to xgboost model which is used as final solution. 
+My approach was ensembling of logistic model, linear model and single decision tree model. The predictions of all these models were fetched as an input to xgboost model which is used as final solution. 
 
 I could not make to the top list with this approach and so would like other's opinions/suggestions to further improve it.
 
