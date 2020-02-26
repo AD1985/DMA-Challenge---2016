@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Here I am submitting my solution to DMA Analytics Challenge 2016 (officially sponsored by E&Y). I would like to thank Fractal Analytics for giving me an opportunity to participate in this competition. It was a great learning experience.
+This repository is for publishing my solutions to DMA Analytics Challenge 2016 (officially sponsored by E&Y). I would like to thank Fractal Analytics for giving me an opportunity to participate in this competition. It was a great learning experience.
 
 ## Problem Description 
 
